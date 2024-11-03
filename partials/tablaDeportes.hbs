@@ -1,0 +1,23 @@
+<section id="tbDeportes">
+  <table>
+    <caption>Tabla de Deportes</caption>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Requisitos</th>
+        <th>Ranking (1-5)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each deportes}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{description}}</td>
+        <td>{{requirements}}</td>
+        <td>{{ranking}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</section>
